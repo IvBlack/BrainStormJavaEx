@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="" />
+    <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/ArrayAverageVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/ArrayAverageVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/FindIndexArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/FindIndexArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/SecondEvenNumbArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/SecondEvenNumbArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/ArrayAverageVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/ArrayAverageVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/SecondEvenNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/SecondEvenNumberArray.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

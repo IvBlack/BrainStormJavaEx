@@ -1,4 +1,4 @@
-package com.IVdev.Strings;
+package com.IVdev.Arrayz;
 
 /*Write a Java program to calculate the average value of
 array elements.
