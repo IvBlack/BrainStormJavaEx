@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/ArrayAverageVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/ArrayAverageVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/FindIndexArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/FindIndexArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/SecondEvenNumbArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/SecondEvenNumbArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/CheckArrayDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Map/WeakHashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Strings/StringSeeker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Strings/StringSeeker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/ArrayAverageVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/ArrayAverageVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckIfIncreaseSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckIfIncreaseSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/FindIndexArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/FindIndexArray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/SecondEvenNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/SecondEvenNumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/DashToCamelCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/DashToCamelCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Treez/TreeNodeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Treez/TreeNodeSum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +59,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayAverageVal">
+  <component name="RunManager" selected="Application.WeakHashMapExample">
     <configuration name="ArrayAverageVal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IVdev.Strings.ArrayAverageVal" />
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.IVdev.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.CheckArrayDuplicates" />
+      <module name="BrainStormJavaEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +99,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeakHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.IVdev.Map.WeakHashMapExample" />
+      <module name="BrainStormJavaEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.IVdev.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeakHashMapExample" />
+        <item itemvalue="Application.CheckArrayDuplicates" />
         <item itemvalue="Application.ArrayAverageVal" />
         <item itemvalue="Application.CheckIfIncreaseSequence" />
       </list>
