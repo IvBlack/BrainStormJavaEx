@@ -1,5 +1,6 @@
 package com.IVdev.Logical;
 
+//что выведет sout?
 public class IntAndIntegerInput {
     public static void main(String[] args) {
         int a = 5;
@@ -20,3 +21,9 @@ public class IntAndIntegerInput {
         c = new Integer(c + 1);
     }
 }
+
+/*
+Answer: 5,6
+в 1 случае это примитив, там нет ссылок
+во 2 случае - создается новый объект, на который ссылка никуда не передается дальше.
+*/

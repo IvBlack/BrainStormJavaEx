@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,21 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.IntAndIntegerInput">
     <configuration name="CheckArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.CheckArrayDuplicates" />
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
+          <option name="PATTERN" value="com.IVdev.Logical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="IntAndIntegerInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.IntAndIntegerInput" />
+      <option name="MAIN_CLASS_NAME" value="com.IVdev.Logical.IntAndIntegerInput" />
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
+          <option name="PATTERN" value="com.IVdev.Logical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +80,7 @@
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
+          <option name="PATTERN" value="com.IVdev.Logical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,7 +93,7 @@
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
+          <option name="PATTERN" value="com.IVdev.Logical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
