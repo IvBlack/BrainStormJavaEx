@@ -1,3 +1,5 @@
+package com.IVdev.Strings;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Map;
@@ -7,7 +9,7 @@ import java.util.stream.Collectors;
 //по количеству повторений (от большего к меньшему)
 public class SortDuplicateString {
     public static void main(String[] args) {
-        System.out.println(getDescString("ndotabonbtnntnoobtno")); // notbad
+        System.out.println(getDescString("onnnaaaddddbbb")); // notbad
     }
 
     private static String getDescString(String str) {

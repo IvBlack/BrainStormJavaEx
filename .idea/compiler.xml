@@ -9,8 +9,5 @@
         <module name="BrainStormJavaEx" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BrainStormJavaEx" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>
