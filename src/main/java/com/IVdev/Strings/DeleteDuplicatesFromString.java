@@ -6,11 +6,13 @@ import java.util.stream.Collectors;
 //есть строка, убрать дубли, вывести в нормальном виде
 public class DeleteDuplicatesFromString {
     public static void main(String[] args) {
-        String str = "Прииииивееет Сбеееееерррр";
+        String str = "Каааак Дееееелаааа";
 
         String res = Arrays.stream(str.split(" "))
                 .map(s -> Arrays.stream(s.split("")).distinct().collect(Collectors.joining("")))
                 .collect(Collectors.joining());
+
+        //String res = str.replaceAll("(\\S)(\\S+\\1)", "$1");
         System.out.println(res);
 
 
