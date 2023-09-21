@@ -8,7 +8,8 @@ there is no int representation for infinity.
 public class DivisionToZero {
     public static void main(String[] args) {
         double d = 10.0/0;
-        System.out.println(d);
+        double a = 0.0/0.0;
+        System.out.println(a);
 //        System.out.println(new Integer(1)/ new Double(0));
     }
 }

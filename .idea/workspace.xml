@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/DivisionToZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Map/GetMapValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/PrintEvenOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/PrintEvenOddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/DivisionToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/DivisionToZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/numeric/DivisionToZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/numeric/DivisionToZero.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DivisionToZero">
+  <component name="RunManager" selected="Application.GetMapValues">
     <configuration name="DeleteDuplicatesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IVdev.Strings.DeleteDuplicatesFromString" />
       <module name="BrainStormJavaEx" />
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPlusString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.IVdev.Strings.NullPlusString" />
+    <configuration name="GetMapValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.IVdev.Map.GetMapValues" />
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IVdev.Strings.*" />
+          <option name="PATTERN" value="com.IVdev.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMapValues" />
         <item itemvalue="Application.DivisionToZero" />
         <item itemvalue="Application.SumOfBuffers" />
         <item itemvalue="Application.DeleteDuplicatesFromString" />
         <item itemvalue="Application.SortDuplicateString" />
-        <item itemvalue="Application.NullPlusString" />
       </list>
     </recent_temporary>
   </component>
