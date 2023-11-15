@@ -5,9 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Map/GetMapValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/IntersectionOfTwoArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/DivisionToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/DivisionToZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/ArrayAverageVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/ArrayAverageVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/ArrayAverageVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/ArrayAverageVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckArrayDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckArrayDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckIfIncreaseSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckIfIncreaseSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/FindFirstUniqueElem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/FindFirstUniqueElem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/PrintEvenOddNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/PrintEvenOddNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/SecondEvenNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/SecondEvenNumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Lists/NumberVsInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Lists/NumberVsInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Logical/IntAndIntegerInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Logical/IntAndIntegerInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Logical/Logical060823.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Logical/Logical060823.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Map/GetMapValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Map/GetMapValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Map/WeakHashMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Map/WeakHashMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/DashToCamelCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/DashToCamelCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/DeleteDuplicatesFromString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/DeleteDuplicatesFromString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/NullPlusString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/NullPlusString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/SortDuplicateString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/SortDuplicateString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/StringPlusCalculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/StringPlusCalculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/SumOfBuffers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Strings/SumOfBuffers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Treez/SumOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Treez/SumOfTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Treez/TreeNodeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Treez/TreeNodeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/multithreading/RunnableInThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/multithreading/RunnableInThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/multithreading/RunnableInThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/multithreading/RunnableInThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/numeric/DivisionToZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/numeric/DivisionToZero.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,19 +61,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "copyright",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.GetMapValues">
+}]]></component>
+  <component name="RunManager" selected="Application.IntersectionOfTwoArrays">
     <configuration name="DeleteDuplicatesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IVdev.Strings.DeleteDuplicatesFromString" />
       <module name="BrainStormJavaEx" />
@@ -90,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortDuplicateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.IVdev.Strings.SortDuplicateString" />
+    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.IntersectionOfTwoArrays" />
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.IVdev.Strings.*" />
+          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.GetMapValues" />
         <item itemvalue="Application.DivisionToZero" />
         <item itemvalue="Application.SumOfBuffers" />
         <item itemvalue="Application.DeleteDuplicatesFromString" />
-        <item itemvalue="Application.SortDuplicateString" />
       </list>
     </recent_temporary>
   </component>
@@ -134,8 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685281129984</updated>
+      <workItem from="1700053178051" duration="5331000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
