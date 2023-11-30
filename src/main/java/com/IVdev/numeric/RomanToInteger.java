@@ -1,11 +1,6 @@
 package com.IVdev.numeric;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
-import static java.lang.Math.random;
-import static java.lang.Math.toIntExact;
 
 public class RomanToInteger {
     public static void main(String[] args) {
@@ -35,6 +30,30 @@ public class RomanToInteger {
         }
         return accum;
     }
+
+    //StringOutOfBoundException, стр. 50
+//            AtomicInteger solution(String s) {
+//            Map<Character, Integer> m = new HashMap<>();
+//            m.put('I', 1);
+//            m.put('V', 5);
+//            m.put('X', 10);
+//            m.put('L', 50);
+//            m.put('C', 100);
+//            m.put('D', 500);
+//            m.put('M', 1000);
+//
+//            AtomicInteger accum = new AtomicInteger();
+//            char[] charArray = s.toCharArray();
+//            Stream<Character> cStream = IntStream.range(0, charArray.length).mapToObj(i -> charArray[i]);
+//            cStream.forEach(n -> {
+//                if (n < s.length() - 1 && m.get(s.charAt(n)) < m.get(s.charAt(n + 1))) {
+//                    accum.addAndGet(-m.get(s.charAt(n)));
+//                } else {
+//                    accum.addAndGet(m.get(s.charAt(n)));
+//                }
+//            });
+//            return accum;
+//        }
 
 /*
 The unordered map m is created and initialized with mappings between Roman numeral characters and their corresponding integer values. For example,
@@ -82,5 +101,7 @@ ans += m['I'];
 ans += 1;
 ans becomes 11.
 
-After the for loop, the accumulated value in ans represents the integer conversion of the Roman numeral string, and it is returned as the result.*/
+After the for loop, the accumulated value in ans represents the integer conversion of the Roman numeral string,
+and it is returned as the result.
+*/
 }

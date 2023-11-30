@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1c1464-30f8-4bf9-ba61-3d94dc111fed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/MaxSumSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/RemoveNeededElem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/CheckArrayDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/CheckArrayDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/TwoIndicesOfSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/TwoIndicesOfSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/IVdev/numeric/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckArrayDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/IVdev/Arrayz/CheckArrayDuplicates.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CheckArrayDuplicates">
+  <component name="RunManager" selected="Application.RomanToInteger">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.BubbleSort" />
+      <module name="BrainStormJavaEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckArrayDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.CheckArrayDuplicates" />
       <module name="BrainStormJavaEx" />
@@ -78,19 +85,6 @@
     </configuration>
     <configuration name="MaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.MaxSumSubArray" />
-      <module name="BrainStormJavaEx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.IVdev.Arrayz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveNeededElem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.IVdev.Arrayz.RemoveNeededElem" />
       <module name="BrainStormJavaEx" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInteger" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.CheckArrayDuplicates" />
         <item itemvalue="Application.MaxSumSubArray" />
         <item itemvalue="Application.TwoIndicesOfSum" />
-        <item itemvalue="Application.RemoveNeededElem" />
-        <item itemvalue="Application.RomanToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +150,9 @@
       <workItem from="1700646311745" duration="162000" />
       <workItem from="1700826650057" duration="4808000" />
       <workItem from="1701073228511" duration="5614000" />
-      <workItem from="1701160048477" duration="14239000" />
+      <workItem from="1701160048477" duration="14977000" />
+      <workItem from="1701254247006" duration="7353000" />
+      <workItem from="1701333641054" duration="6468000" />
     </task>
     <servers />
   </component>
@@ -177,11 +173,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/IVdev/numeric/RomanToInteger.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/IVdev/Arrayz/RemoveNeededElem.java</url>
           <line>15</line>
