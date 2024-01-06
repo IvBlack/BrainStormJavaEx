@@ -1,4 +1,4 @@
-package com.IVdev.Arrayz;
+package com.IVdev.sortingAlgo;
 
 /*
 Сортировка выполняется по следующим правилам:
