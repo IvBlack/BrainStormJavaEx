@@ -2,10 +2,8 @@ package com.IVdev.Arrayz;
 
 //Write a Java program to find the index of an array element.
 
-public class FindFirstUniqueElem {
+public class FindIndexOfElem {
     public static void main(String[] args) {
-
-        //Найти первый не повторяющийся элемент в массиве целых чисел
         int[] myArr = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
         System.out.println("Index position of 25 is: " + findIndex(myArr, 13));
         System.out.println("Index position of 77 is: " + findIndex(myArr, 23));
