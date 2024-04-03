@@ -1,21 +1,46 @@
 package com.IVdev.Arrayz;
 
-public class MaxSumSubArray {
-    public static void main(String[] args) {
-        int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
-        MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
-        maxSumSubArray.solution(arr);
-    }
 /*
-Найти subarray с максимальной суммой
+    Найти subarray с максимальной суммой.
 */
-    int solution(int[] arr) {
+public class MaxSumSubArray {
+
+    static int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
+
+    public static void main(String[] args) {
+        MaxSumSubArray maxSumSubArray = new MaxSumSubArray();
+        maxSumSubArray.cleanSolution(arr);
+        System.out.println(maxSumSubArray.dirtySolution(arr));
+    }
+
+    //clean code
+    int cleanSolution(int[] arr) {
         int maxSum = arr[0];
         int curSum = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
             curSum = Math.max(arr[i], curSum + arr[i]);
             maxSum = Math.max(curSum, maxSum);
+        }
+        return maxSum;
+    }
+
+    //dirty
+    int dirtySolution(int[] arr) {
+        int maxSum = Integer.MIN_VALUE;
+        int currentSum = 0;
+
+        for (int i=0; i<arr.length; i++) {
+            currentSum += arr[i];
+
+            if(currentSum > maxSum) {
+                maxSum = currentSum;
+            }
+
+            if(currentSum < 0) {
+                //обнуляем, начинаем с текущего элемента
+                currentSum = 0;
+            }
         }
         return maxSum;
     }
