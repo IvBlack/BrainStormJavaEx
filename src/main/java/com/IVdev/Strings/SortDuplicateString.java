@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 //по количеству повторений (от большего к меньшему)
 public class SortDuplicateString {
     public static void main(String[] args) {
-        System.out.println(getDescString("onnnaaaddddbbb")); // notbad
+        System.out.println(getDescString("adbbnnnnntttoooo"));
     }
 
     private static String getDescString(String str) {
