@@ -8,15 +8,20 @@ import java.util.List;
 /*
     Some junior code mistakes.
     1. Fail-fast iteration is not allowed to delete element while looping.
+    2. Use generics for one type, don't use casting. Use root interface in the left.
+        It can help choose any implementation.
 * */
 public class TenMistakesYouDo {
     public static void main(String[] args) {
 //        throwsConcurrentModException();
         doNotThrowsConcurrentModException();
         System.out.println("//=====================================");
+
+        useGenerics();
+        System.out.println("//=====================================");
     }
 
-    //1. ===============resolving ConcurrentModificationException=================
+    // 1.===============resolving ConcurrentModificationException=================
     private static void throwsConcurrentModException() {
         List<String> letters = new ArrayList<>(Arrays
                 .asList("a", "x", "u", "W", "z"));
@@ -44,6 +49,27 @@ public class TenMistakesYouDo {
 //        letters.removeIf(l -> l.equals("u"));
 
         System.out.println(letters);
+    }
+    //=========================================================================
+
+    // 2.============================using generics============================
+    private static void useGenerics() {
+        //not right
+//        ArrayList anyType = new ArrayList();
+//        anyType.add(10);
+//        anyType.add("45");
+//        anyType.forEach(
+//                t -> System.out.println((int)t + 9)
+//        );
+
+
+        //right
+        List<Integer> anyType = new ArrayList<>();
+        anyType.add(10);
+        anyType.add(45);
+        anyType.forEach(
+                t -> System.out.println(t + 9)
+        );
     }
     //=========================================================================
 }
