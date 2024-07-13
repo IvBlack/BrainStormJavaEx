@@ -19,6 +19,8 @@ public class TenMistakesYouDo {
 
         useGenerics();
         System.out.println("//=====================================");
+
+        useEquals();
     }
 
     // 1.===============resolving ConcurrentModificationException=================
@@ -72,4 +74,15 @@ public class TenMistakesYouDo {
         );
     }
     //=========================================================================
+
+    // 2.============================using equals()============================
+    private  static boolean useEquals() {
+        String name1 = "Jorgio";
+        String name2 = new String("Jorgio");
+//        return name1 == name2; //bad comparison
+        return name1.equals(name2);
+    }
+    //=========================================================================
+
+
 }
