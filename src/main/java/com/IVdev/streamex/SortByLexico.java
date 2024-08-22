@@ -3,7 +3,11 @@ package com.IVdev.streamex;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+
+import static org.junit.Assert.assertThat;
+
 public class SortByLexico {
 
     //в алфа порядке
@@ -21,9 +25,11 @@ public class SortByLexico {
         );
     }
 
-//    @Test
-//    public void givenListOfStrings_whenUsingCollections_thenListIsSorted() {
-//        Collections.sort(INPUT_ORDER);
-//        assertThat(INPUT_ORDER).isEqualTo(EXPECTED_NATURAL_ORDER);
-//    }
+    private <T> void assertThat(List<T> in, List<T> out) {}
+
+    @Test
+    public void givenListOfStrings_whenUsingCollections_thenListIsSorted() {
+        Collections.sort(INPUT_ORDER);
+        assertThat(INPUT_ORDER, EXPECTED_NATURAL_ORDER);
+    }
 }
