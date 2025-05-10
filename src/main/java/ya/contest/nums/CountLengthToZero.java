@@ -6,8 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 /*
- * Вычисляет наименьшие расстояния до 0, если они есть
- * в массиве или строке
+ * https://contest.yandex.ru/contest/22450/run-report/137363529/
  * */
 public class CountLengthToZero {
         public static void main(String[] args) {
