@@ -1,51 +1,77 @@
-package ya.contest.queue;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-
-// Тестовый класс, для обката сниппетов.
-public class Test {
-    public static void main(String[] args) {
-//        String str = "[put, 5]";
-//        int start = str.lastIndexOf(",") + 2;
-//        int end = str.length() - 1;
+//package ya.contest.queue;
 //
-//        try {
-//            int number = Integer.parseInt(str.substring(start, end));
-//            System.out.println("Извлеченное число: " + number);
-//        } catch (NumberFormatException e) {
-//            System.out.println("Не удалось преобразовать в число");
-//        }
-
-
-        String input = "[put -34]";
-
-        // Шаблон для поиска числа с учетом знака
-        Pattern pattern = Pattern.compile("\\[put\\s+(-?\\d+)\\]");
-        Matcher matcher = pattern.matcher(input);
-
-        if (matcher.find()) {
-            try {
-                int number = Integer.parseInt(matcher.group(1));
-                System.out.println("Извлеченное число: " + number);
-            } catch (NumberFormatException e) {
-                System.err.println("Ошибка при преобразовании числа");
-            }
-        } else {
-            System.err.println("Число не найдено в строке");
-        }
-
-//        String input = "[put 80]";
-
-        // Шаблон для поиска числа с учетом знака
-//        Pattern pattern = Pattern.compile("\\D+(-?\\d+)");
-//        Matcher matcher = pattern.matcher(input);
+//import java.io.BufferedReader;
+//import java.io.IOException;
+//import java.io.InputStreamReader;
+//import java.util.Scanner;
 //
-//        if (matcher.find()) {
-//            // Получаем число и берем его модуль
-//            int number = Math.abs(Integer.parseInt(matcher.group(1)));
-//            System.out.println("Извлеченное число по модулю: " + number);
+//
+//// Тестовый класс, для обката сниппетов.
+//public class Test {
+//
+////    Исходная матрица:
+////            1 2 3 4
+////            5 6 7 8
+////            9 10 11 12
+//    public static void main(String[] args) throws IOException {
+//
+//        // Исходная матрица 3x4
+//        int[][] inputData = {
+//                {1, 2, 3, 4},
+//                {5, 6, 7, 8},
+//                {9, 10, 11, 12}
+//        };
+//
+//        // Транспонируем матрицу
+//        int[][] transposed = revert(inputData);
+//
+//        // Выводим результат
+//        System.out.println("Исходная матрица:");
+//        printMatrix(inputData);
+//
+//        System.out.println("\nТранспонированная матрица:");
+//        printMatrix(transposed);
+//    }
+//
+//    public static int[][] revert(int[][] matrix) {
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        // Получаем размеры исходной матрицы
+//        int m = sc.nextInt();
+//        int n = sc.nextInt();
+//
+//        // Создаем новую матрицу с переставленными размерами
+//        int[][] result = new int[n][m];
+//
+//        // считываем матрицу полинейно
+//        for (int i = 0; i < rows; i++) {
+//            String line = scanner.nextLine();
+//            String[] numbers = line.split(" ");
+//            if (numbers.length != cols) {
+//                throw new IllegalArgumentException("Неверное количество элементов в строке");
+//            }
+//            for (int j = 0; j < cols; j++) {
+//                matrix[i][j] = Integer.parseInt(numbers[j]);
+//            }
 //        }
-    }
-}
+//
+//        // Заполняем новую матрицу
+//        for (int i = 0; i < m; i++) {
+//            for (int j = 0; j < n; j++) {
+//                result[j][i] = matrix[i][j];
+//            }
+//        }
+//        return result;
+//    }
+//
+//    // Метод для вывода матрицы
+//    public static void printMatrix(int[][] matrix) {
+//        for (int[] row : matrix) {
+//            for (int element : row) {
+//                System.out.print(element + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
