@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
+/*
+    Простое танспонирование матрицы чисел размером n x m
+* */
 public class TransposeMatrix {
     public static void main(String[] args) throws IOException {
 
