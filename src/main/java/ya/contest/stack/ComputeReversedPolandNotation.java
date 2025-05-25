@@ -3,7 +3,6 @@ package ya.contest.stack;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Map;
 import java.util.Stack;
 
 
@@ -14,7 +13,7 @@ public class ComputeReversedPolandNotation {
         try (BufferedReader br = new BufferedReader(new BufferedReader(new InputStreamReader(System.in)))) {
             String inputStr = br.readLine();
 
-            Double result = solution(inputStr);
+            int result = solution(inputStr);
 
             System.out.println(result);
         } catch (IOException e) {
@@ -22,40 +21,55 @@ public class ComputeReversedPolandNotation {
         }
     }
 
-    public static Double solution(String expr) {
+    public static int solution(String expr) {
         StringBuilder operand = new StringBuilder();
-        Stack<Double> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<>();
 
-        // пропусти пробел
         for (int i = 0; i < expr.length(); i++) {
-            if (expr.charAt(i) == ' ') continue;
+            char currentChar = expr.charAt(i);
 
-            // это цифра?
-            while (expr.charAt(i) != ' ' && checkPriority(expr.charAt(i)) == 0) {
-                operand.append(expr.charAt(i++));
+            if (Character.isDigit(currentChar)) {
+                operand.append(currentChar);
 
-                stack.push(Double.parseDouble(String.valueOf(operand)));
-                operand = new StringBuilder(); // обнулить текущий операнд на итерации
+                // Добавляем число в стек только после полного считывания
+                if (i == expr.length() - 1 || !Character.isDigit(expr.charAt(i + 1))) {
+                    stack.push(Integer.parseInt(operand.toString()));
+                    operand = new StringBuilder();
+                }
             }
-
             // это оператор?
-            if (checkPriority(expr.charAt(i)) > 1) {
-                double a = stack.pop();
-                double b = stack.pop();
-
-                interface Operation {
-                    double apply(double m, double n);
+            else if (checkPriority(currentChar) > 0) {
+                if (stack.size() < 2) {
+//                    throw new IllegalArgumentException("Количество опрандов менее двух.");
+                    System.out.println(stack.size());
+                    break;
                 }
 
-                final Map<Character, Operation> OPERATIONS = Map.of(
-                        '+', (m, n) -> a + b,
-                        '-', (m, n) -> a - b,
-                        '*', (m, n) -> a * b,
-                        '/', (m, n) -> a / b
-                );
+                // извлечем два верхних операнда из стека
+                int b = stack.pop();
+                int a = stack.pop();
 
-                stack.push(OPERATIONS.get(expr.charAt(i)).apply(b, a));
+                switch (currentChar) {
+                    case '+':
+                        stack.push(a + b);
+                        break;
+                    case '-':
+                        stack.push(a - b);
+                        break;
+                    case '*':
+                        stack.push(a * b);
+                        break;
+                    case '/':
+                        stack.push(a / b);
+                        break;
+                    default:
+                        throw new IllegalArgumentException("Неизвестный оператор");
+                }
             }
+        }
+
+        if (stack.size() != 1) {
+            throw new IllegalArgumentException("Некорректное выражение");
         }
 
         return stack.pop();
@@ -70,3 +84,42 @@ public class ComputeReversedPolandNotation {
         };
     }
 }
+
+//    public static Double solution(String expr) {
+//        StringBuilder operand = new StringBuilder();
+//        Stack<Double> stack = new Stack<>();
+//
+//        // пропусти пробел
+//        for (int i = 0; i < expr.length(); i++) {
+//            if (expr.charAt(i) == ' ') continue;
+//
+//            // это цифра?
+//            while (expr.charAt(i) != ' ' && checkPriority(expr.charAt(i)) == 0) {
+//                operand.append(expr.charAt(i++));
+//
+//                stack.push(Double.parseDouble(String.valueOf(operand)));
+//                operand = new StringBuilder(); // обнулить текущий операнд на итерации
+//            }
+//
+//            // это оператор?
+//            if (checkPriority(expr.charAt(i)) > 1) {
+//                double a = stack.pop();
+//                double b = stack.pop();
+//
+//                interface Operation {
+//                    double apply(double m, double n);
+//                }
+//
+//                final Map<Character, Operation> OPERATIONS = Map.of(
+//                        '+', (m, n) -> a + b,
+//                        '-', (m, n) -> a - b,
+//                        '*', (m, n) -> a * b,
+//                        '/', (m, n) -> a / b
+//                );
+//
+//                stack.push(OPERATIONS.get(expr.charAt(i)).apply(b, a));
+//            }
+//        }
+//
+//        return stack.pop();
+//    }

@@ -32,9 +32,9 @@ public class TransposeMatrix {
 //            System.out.println(Arrays.deepToString(matrix));
         }
 
-        for (int i = 0; i < n_rows; i++) {
-            for (int j = 0; j < m_columns; j++) {
-                System.out.println(matrix[i][j] + " ");
+        for (int i = 0; i < m_columns; i++) {
+            for (int j = 0; j < n_rows ; j++) {
+                System.out.print(matrix[j][i] + " ");
             }
             System.out.println();
         }

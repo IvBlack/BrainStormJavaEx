@@ -4,6 +4,12 @@ package ya.contest.lists;
  * Меняет порядок элементов списка на обратный, включая смену головы.
  * */
 public class RevertList {
+// <template>
+
+    public static void main(String[] args) {
+        Solution.test();
+    }
+
     static class Node<V> {
         public V value;
         public Node<V> next;
@@ -14,11 +20,6 @@ public class RevertList {
             this.next = next;
             this.prev = prev;
         }
-    }
-// <template>
-
-    public static void main(String[] args) {
-        Solution.test();
     }
 
     public class Solution {
