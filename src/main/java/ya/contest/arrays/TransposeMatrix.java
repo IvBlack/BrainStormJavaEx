@@ -5,6 +5,13 @@ import java.util.Scanner;
 
 /*
     Простое танспонирование матрицы чисел размером n x m
+
+4
+3
+1 2 3
+0 2 6
+7 4 1
+2 7 0
 * */
 public class TransposeMatrix {
     public static void main(String[] args) throws IOException {

@@ -4,26 +4,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 // Кастомная реализация двусторонней очереди на основе двусвязного списка.
 public class CustomDequeueClass {
 
     public static void main(String[] args) throws IOException {
 
-//        4
-//        4
-//        push_front 861
-//        push_front -819
-//        pop_back
-//        pop_back
-
-//        CustomDequeRealization customDequeRealization =
-//                new CustomDequeRealization();
-//        customDequeRealization.pushBack(4);
-//        customDequeRealization.pushFront(12);
-//        customDequeRealization.pushBack(23);
-//        System.out.println(customDequeRealization.size());
-//        System.out.println(customDequeRealization);
+//4
+//4
+//push_front 861
+//push_front -819
+//pop_back
+//pop_back
 
         BufferedReader br = new BufferedReader
                 (
@@ -31,50 +27,60 @@ public class CustomDequeueClass {
                 );
 
 
-        int kol_vo_commands = Integer.parseInt(br.readLine());
-        int dek_size = Integer.parseInt(br.readLine());
+        int kol_vo_commands = Integer.parseInt(br.readLine().trim());
+        int dek_size = Integer.parseInt(br.readLine().trim());
 
         String[] commands = new String[kol_vo_commands];
 
-//        массив команд
+        // массив команд, разбитый
         for (int i = 0; i < kol_vo_commands; i++) {
             commands[i] = Arrays.toString(br.readLine().split( " "));
         }
 
-        parse_commands(commands);
+        CustomDequeRealization list = new CustomDequeRealization();
+        processCommands(list, commands);
+    }
+
+    static void processCommands(CustomDequeRealization list, String[] commands) {
+        for (String command : commands) {
+            String replaced = command.replaceAll("[\\[\\],]", "");
+            String[] arr = replaced.split(" ");
+            String func = arr[0];
+
+            if (!isValidCommand(func)) {
+                System.out.println("Неизвестная команда: " + command);
+                continue;
+            }
+
+            try {
+                switch (func) {
+                    case "push_front":
+                        list.push_front(Integer.parseInt(arr[1]));
+                        break;
+                    case "push_back":
+                        list.push_back(Integer.parseInt(arr[1]));
+                        break;
+                    case "pop_front":
+                        System.out.println(list.pop_front());
+                        break;
+                    case "pop_back":
+                        list.pop_back();
+                        break;
+                }
+            } catch (Exception ex) {
+                System.out.println("Ошибка выполнения команды: " + command);
+            }
+        }
+    }
+
+    private static boolean isValidCommand(String cmd) {
+        return cmd.equals("push_front") ||
+                cmd.equals("push_back") ||
+                cmd.equals("pop_front") ||
+                cmd.equals("pop_back");
     }
 
 
-    public static void parse_commands(String[] commands) {
-//        ListBasedQueue list = new ListBasedQueue();
-//
-//        for (String command : commands) {
-//            if (command.contains("get")) {
-//                Integer result = list.get();
-//                System.out.println(result != null ? result : "error");
-//            } else if (command.contains("size")) {
-//                System.out.println(list.getSize());
-//            } else if (command.contains("put")) {
-//                try {
-//                    // значение после put  в строке команды
-////                    String value = command.split(" ")[1];
-//                    Pattern pattern = Pattern.compile("\\[\\w+\\s*,\\s*(-?\\d+)\\]");
-//                    Matcher matcher = pattern.matcher(command);
-//                    if (matcher.find()) {
-//                        // Получаем число и берем его модуль
-//                        int number = Integer.parseInt(matcher.group(1));
-//                        list.put(number);
-//                    } else {
-//                        System.out.println("Некорректный формат числа");
-//                    }
-//                } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
-//                    System.out.println("Ошибка в команде put" + e);
-//                }
-//            } else {
-//                System.out.println("Неизвестная команда: " + command);
-//            }
-//        }
-    }
 
     // элемент очереди, узел
     static class Node {
