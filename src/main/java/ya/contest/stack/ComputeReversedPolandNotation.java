@@ -40,9 +40,9 @@ public class ComputeReversedPolandNotation {
             // это оператор?
             else if (checkPriority(currentChar) > 0) {
                 if (stack.size() < 2) {
-//                    throw new IllegalArgumentException("Количество опрандов менее двух.");
-                    System.out.println(stack.size());
-                    break;
+                    throw new IllegalArgumentException("Количество опрандов менее двух.");
+//                    System.out.println(stack.size());
+//                    break;
                 }
 
                 // извлечем два верхних операнда из стека
